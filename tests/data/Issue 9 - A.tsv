@@ -1,0 +1,11 @@
+10/14/2016 15:23:08	# /mods/extension/dg_importIndex	# /mods/originInfo/dateCreated		CMODEL
+# CSV Headers -->		Created Date		
+	1	-0225		
+	2	-0137		
+	3	-0123		
+	4	-0134		
+	5	-0130		
+#				
+# This row, and all below it, are comments because they all begin with a hashtag character (#) in column A.				
+# -------------------------------------------------------------------------------------------------------------------------------------------				
+# This test presents a 'structured' CSV data file but with NO xpaths and NO CMODEL column.  Both of these conditions should throw an error to satisfy requirements of Issue #9.				

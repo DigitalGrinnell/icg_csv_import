@@ -1,0 +1,894 @@
+OBJ_PREFIX	/mods/typeOfResource[@blank-attribute='']	/mods/genre[@empty-attribute]	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits' and @displayLabel='Production Credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+132.161.10.13:/library/ALLSTAFF/Digital_Collection_Development/DG CSV Imports/AncientCoins/AncientCoins_TIFF/Montage	still image	coin	Foss, Danja[@displayLabel='Contributor 1'] | Hubbard, Sarah[@displayLabel='Contributor 2']	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa[@displayLabel='Faculty Sponsor']	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+	# Format	# Genre	# Creator	# role	# Contributor	# role	# Contributor, Advisor	# role	# Entry Author	# Language	# Language	# Frequency			# Access Condition
+															
+# This data has been appended to TEST OUTCOMES with significant results indicated there in red.															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+															
+CMODEL	/mods/typeOfResource	/mods/genre	/mods/name[1][@type='personal']/namePart	/mods/name[1][@type='personal']/role/roleTerm	/mods/name[2][@type='corporate']/namePart	/mods/name[2][@type='corporate']/role/roleTerm	/mods/name[3][@type='personal']/namePart	/mods/name[3][@type='personal']/role/roleTerm	/mods/note[@type='production credits']	/mods/language/languageTerm[@type='code']	/mods/language/languageTerm[@type='text']	/mods/extension[@type='admin']/note[@displayLabel='Frequency']	/mods/physicalDescription/internetMediaType	/mods/physicalDescription/digitalOrigin	/mods/accesCondition[@type='useAndReproduction']
+	Format	Genre	Creator		Contributor		Contributor, Advisor		Entry Author	Language	Language	Frequency			Access Condition
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.
+islandora:sp_large_image_cmodel	still image	coin	Foss, Danja | Hubbard, Sarah	contributor	Grinnell College. Classics Department	supporting host	Cummins, Monessa	sponsor	Hubbard, Sarah (2017)	lat	Latin		image/tiff	digitized other analog	Others are permitted to copy, distribute, display and perform the work for non-commercial purposes.

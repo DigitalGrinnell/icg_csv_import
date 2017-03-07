@@ -1,0 +1,207 @@
+<?php
+
+/**
+* @file
+* batch.test
+*/
+
+class CSVImportBatchTestCase0 extends IslandoraWebTestCase {
+
+  /**
+   * Implements getInfo().
+   */
+  public static function getInfo() {
+    return array(
+      'name' => 'Import Collection Objects',
+      'description' => 'Imports new collection objects from /tests/data/CSVTesting-CollectionObjects.csv.',
+      'group' => 'ICG CSV Import',
+    );
+  }
+
+  /**
+   * Implements setUp().
+   */
+  public function setUp() {
+    parent::setUp(array('icg_csv_import'));
+  }
+
+
+  public function testCollectionImport() {
+    require_once('/var/www/drupal/sites/all/modules/icg_csv_import/includes/batch.inc');
+
+    debug("This is ../icg_csv_import/tests/testCollectionImport().");
+
+    $parent = 'islandora:root';
+    $ns = 'icg-collection';
+    $path = '/var/www/drupal/'.drupal_get_path('module', 'icg_csv_import');
+
+    if (icg_csv_import_readCSV($path."/tests/data/CSVTesting-CollectionObjects.csv", $parent, $ns)) {
+      $this->pass("Yes! Call to readCSV() passed.");
+    } else {
+      $this->fail("Drats!  Call to readCSV() failed.");
+    }
+
+    return;
+
+  }
+}
+
+
+class CSVImportBatchTestCase2 extends IslandoraWebTestCase {
+
+  /**
+   * Implements getInfo().
+   */
+  public static function getInfo() {
+    return array(
+      'name' => 'Import Four Objects from CSV',
+      'description' => 'Imports four new objects from /tests/data/CSVSample-HistoricIowaPostcards-FourObjects.csv.',
+      'group' => 'ICG CSV Import',
+    );
+  }
+
+  /**
+   * Implements setUp().
+   */
+  public function setUp() {
+    parent::setUp(array('icg_csv_import'));
+  }
+
+
+  public function testFourImport() {
+    require_once('/var/www/drupal/sites/all/modules/icg_csv_import/includes/batch.inc');
+
+    debug("This is ../icg_csv_import/tests/testFourImport().");
+
+    $parent = 'icg-collection:1';
+    $ns = 'test';
+    $path = '/var/www/drupal/'.drupal_get_path('module', 'icg_csv_import');
+
+    if (icg_csv_import_readCSV($path."/tests/data/CSVSample-HistoricIowaPostcards-FourObjects.csv", $parent, $ns)) {
+      $this->pass("Yes! Call to readCSV() passed.");
+    } else {
+      $this->fail("Drats!  Call to readCSV() failed.");
+    }
+
+    return;
+
+  }
+}
+
+
+
+class CSVImportBatchTestCase1 extends IslandoraWebTestCase {
+
+  protected $classVariable;
+
+  /**
+   * Implements getInfo().
+   */
+  public static function getInfo() {
+    return array(
+      'name' => 'Import Data from Arrays',
+      'description' => 'Test functions in the batch.inc code using simple import of array data.',
+      'group' => 'ICG CSV Import',
+    );
+  }
+
+  /**
+   * Implements setUp().
+   */
+  public function setUp() {
+    // Here, you can establish class variables before the actual setup phase.
+    // After the setup is complete, the Drupal database will mimic a fresh
+    // install, so this is the time to grab anything you need.
+    //   $this->classVariable = drupal_get_variable('some_variable', NULL);
+
+    // Now, we run the parent setUp(), which takes an array of strings
+    // representing modules to enable.
+    parent::setUp(array('icg_csv_import'));
+
+    // After here, if we'd like, we can use those class variables.
+    //   drupal_set_variable('some_variable', $this->classVariable);
+  }
+
+
+  public function testFromArrays() {
+    require_once('/var/www/drupal/sites/all/modules/icg_csv_import/includes/batch.inc');
+    // require_once('/var/www/drupal/sites/all/modules/icg_csv_import/includes/test.inc');
+
+    debug("This is ../icg_csv_import/tests/testBatch.");
+
+    $parent = 'icg-collection:1';
+    $ns = 'test';
+
+    $headers = array(
+      "/mods/identifier[@type='local']",
+      "/mods/titleInfo/title",
+      "/mods/name[1][@type='personal']/namePart",
+      "/mods/name[2][@type='personal']/namePart",
+      "/mods/originInfo/dateCreated"
+    );
+
+    $rows = array();
+
+    // There are supposed to be four fields in the CSV file ("Identifier","Title","Author","Date")
+    // Some of the CSV rows have more than four fields (such as the first row, which has "Hannah" and "Adams" for the author)
+
+    $rows[] = array(
+      "1794 1",
+      "A view of religions, in two parts. : Part I. Containing an alphabetical compendium of the various religious denominations, which have appeared in the world, from the beginning of the Christian era to the present day. Part II. Containing a brief account of the different schemes of religion now embraced among mankind. The whole collected from the best authors, ancient and modern",
+      "Hannah",
+      "Adams",
+      "1791"
+    );
+
+    // same thing here with author field: "Benjamin" and "Fawcett"
+
+    $rows[] = array(
+      "1794 2",
+      "The saint's everlasting rest, or, A treatise of the blessed state of the saints in their enjoyment of God in heaven. Written by the reverend, learned, and pious Mr. Richard Baxter",
+      "Benjamin",
+      "Fawcett",
+      "1793"
+    );
+
+    // this row seems corrupt; there is no author but the author field seems to contain info from the title field
+
+    $rows[] = array(
+      "1794 3",
+      "Evidences of the Christian religion; briefly and plainly",
+      "stated",
+      "",
+      "1787"
+    );
+
+    $rows[] = array(
+      "1794 4",
+      "Bible",
+      "",
+      "",
+      "1801"
+    );
+
+    foreach ($rows as $row) {
+      debug("Calling icg_csv_import_batch_item( ) for a new row of data.");
+      if ($pid = icg_csv_import_batch_item($headers, $row, $parent, $ns)) {
+        $this->pass("Yes! New object '$pid' has been created from CSV data.");
+      }
+      else {
+        $this->fail("Oops, object creation failed!");
+      }
+    }
+
+
+    if (icg_csv_import_test()) {
+      $this->pass("Yes! Call to icg_csv_import_test() passed.");
+    }
+    else {
+      $this->fail("Drats!  Call to icg_csv_import_test() failed.");
+    }
+
+    return;
+
+  }
+}
+
+

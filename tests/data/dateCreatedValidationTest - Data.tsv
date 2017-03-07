@@ -1,0 +1,11 @@
+10/14/2016 15:43:41	/mods/extension/dg_importIndex	/mods/originInfo/dateCreated	/mods/originInfo/dateCaptured		/mods/titleInfo/title	/mods/identifier[@type='local' and @displayLabel='Local Identifier']	/mods/note[@displayLabel='Catalog number 2016']	CMODEL
+# CSV Headers -->		Created Date	Timestamp		Other Title or Name of material		Catalog number 2016	
+	1	-0225	7/25/2016 12:05:49[@displayLabel='Date Captured' and @no-value-here]		Republican Quadrigatus 225 BCE		Hubbard/Cummins.RRC.1	islandora:sp_large_image_cmodel
+	2	abcdefg	7/25/2016 12:06:13[@displayLabel='No error here']		Republican Denarius 137 BCE		Hubbard/Cummins.RRC.2[@displayLabel='Overriding the Default']	islandora:sp_large_image_cmodel
+	3	1910?	8/5/2016 11:55:47		Republican Denarius 123 BCE[@note='Is this Title attribute OK?']		Hubbard/Cummins.RRC.3	islandora:sp_large_image_cmodel
+	4	01-July-2015	8/5/2016 12:12:14		Republican Denarius 134 BCE		Hubbard/Cummins.RRC.4	islandora:sp_large_image_cmodel
+	5	-0130	8/5/2016 13:36:51		Republican Denarius 130 BCE		Hubbard/Cummins.RRC.5	islandora:sp_large_image_cmodel
+#								
+# This row, and all below it, are comments because they all begin with a hashtag character (#) in column A.								
+# -------------------------------------------------------------------------------------------------------------------------------------------								
+# Rows 4 and 5 in this worksheet should FAIL to import....their dateCreated formats are not valid.								

@@ -1,0 +1,150 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: markmcfate
+ * Date: 4/2/16
+ * Time: 12:43 PM
+ */
+
+/* Push code changes to the Vagrant VM using rsync from the /var/www/drupal/sites/all/modules/icg_csv_import folder...
+
+  rsync -rltDe "ssh -p 2222" * vagrant@localhost:/var/www/drupal/sites/all/modules/icg_csv_import/
+
+
+    // Fetch a file via FTP.
+    $temp_file = drupal_tempnam('temporary://', 'import_content');  // open a temp file
+    $conn_id = fic_ftp_connect();
+    if (!ftp_get($conn_id, 'temporary://import_content', $name, FTP_BINARY)) {
+      $msg = "Error! Could not copy file '$name' from FTP to object $pid.";
+      log_record_add($r, 2, 'import', $msg);
+      return;
+    }
+
+/**
+ * Open an FTP connection.
+ *
+ * @return type $conn_id
+ *   Returns an opened FTP connection ID if successful.
+ */
+function fic_ftp_connect() {
+  $ftp_server = variable_get('icg_ftpServer');
+  $ftp_directory = variable_get('icg_ftpDirectory');
+  $ftp_username = variable_get('icg_ftpUsername');
+  $ftp_userpass = variable_get('icg_ftpPassword');
+
+  // Set up a basic connection.
+  $conn_id = ftp_ssl_connect($ftp_server, 21, 180);
+  if (!$conn_id) { die("FTP connection failed!"); }
+
+  // Login with the specified FTP username and password.
+  $login_result = ftp_login($conn_id, $ftp_username, $ftp_userpass);
+  if (!$login_result) { die("FTP login failed!"); }
+
+  // Attempt to change the remote directory as specified.
+  $change_dir = ftp_chdir($conn_id, $ftp_directory);
+  if (!$change_dir) { die("FTP chdir to '$ftp_directory' failed!"); }
+
+  return $conn_id;
+}
+
+
+/* Test code... paste into /devel/php... */
+module_load_include('inc', 'icg_csv_import', 'includes/batch');
+test( );
+
+$xml_form_id = NULL;
+$parent_object = NULL;
+$namespace = "test";
+$headers = array( "/mods:mods/mods:identifier[@type='local']",
+  "/mods:mods/mods:titleInfo/mods:title",
+  "/mods:mods/mods:name[@type='personal']/mods:namePart[@type='given']",
+  "/mods:mods/mods:name[@type='personal']/mods:namePart[@type='family']",
+  "/mods:mods/mods:originInfo/mods:dateCreated" );
+$row = array( "1794 1","A view of religions, in two parts. : Part I. Containing an alphabetical compendium of the various religious denominations, which have appeared in the world, from the beginning of the Christian era to the present day. Part II. Containing a brief account of the different schemes of religion now embraced among mankind. The whole collected from the best authors, ancient and modern","Hannah","Adams","1791");
+$pid = icg_csv_import_batch_item($headers, $row, $xml_form_id, $parent_object, $namespace);
+dprint_r($pid);
+dsm("Done.");
+
+
+// Search $template_xml for the Xpath specifed in $headers[$i].
+$xpath = $headers[$i];
+$nodes = $dx->query($xpath);    // $nodes is a DOMNodeList
+
+if ($nodes->length < 1) {
+  drupal_set_message("Xpath '$xpath' not found in template '$template'.", "error");
+  return FALSE;
+}
+
+$node = $nodes->item(0);  // $node is a single DOMNode   @TODO Set breakpoint here and see what is returned!
+
+// Assuming $node is a DOMNode...
+$clone = $node->cloneNode(FALSE);  // $clone is a new DOMNode
+$clone->nodeValue = $row[$i];
+
+// @TODO Attach the $clone to the DOMDocument
+
+} // for ($i=0...
+
+// @TODO Save the DOMDocument as the object's MODS datastream
+
+return FALSE;
+}
+
+
+/**
+* Return the validated/sanitized contents of the template file.
+*
+* @return DOMDocument - The template contents as a DOMDocument.
+*/
+function fetch_template($template) {
+  $contents = file_get_contents($template);
+  // @TODO...validate/sanitize the template?
+  if (strlen($contents) < 1) {
+    die("Failed to open and read template file '$template'!");
+  }
+
+  $xml = new DOMDocument;
+  // Open template as searchable XML
+  if (!$xml->loadXML($contents)) {
+    die ("Failed to create valid XML from template file '$template'!");
+  }
+  return $xml;
+}
+
+
+function GenerateNodeFromXPath($xpath)
+{
+  doc = new XmlDocument();
+  return GenerateNodeFromXPath(doc, doc as XmlNode, xpath);
+  }
+
+private XmlNode GenerateNodeFromXPath(XmlDocument doc, XmlNode parent, string xpath)
+        {
+          // grab the next node name in the xpath; or return parent if empty
+          string[] partsOfXPath = xpath.Trim('/').Split('/');
+ 
+            if (partsOfXPath.Length == 0)
+              return parent;
+ 
+            string nextNodeInXPath = partsOfXPath[0];
+            if (string.IsNullOrEmpty(nextNodeInXPath))
+              return parent;
+ 
+ 
+            // get or create the node from the name
+            XmlNode node = parent.SelectSingleNode(nextNodeInXPath);
+            if (node == null)
+            {
+              if (nextNodeInXPath.StartsWith("@"))
+              {
+                XmlAttribute anode = doc.CreateAttribute(nextNodeInXPath.Substring(1));
+                    node = parent.Attributes.Append(anode);
+                }
+              else
+                node = parent.AppendChild(doc.CreateElement(nextNodeInXPath));
+            }
+ 
+            // rejoin the remainder of the array as an xpath expression and recurse
+            string rest = String.Join("/", partsOfXPath, 1, partsOfXPath.Length - 1);
+            return GenerateNodeFromXPath(doc, node, rest);
+        }

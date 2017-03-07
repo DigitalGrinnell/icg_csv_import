@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mods xmlns="http://www.loc.gov/mods/v3" xmlns:mods="http://www.loc.gov/mods/v3"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink">
+
+    <name type="personal">
+        <role>
+            <roleTerm type="text">creator</roleTerm>
+        </role>
+        <namePart />
+    </name>
+
+    <name type="personal">
+        <role>
+            <roleTerm type="text">contributor</roleTerm>
+        </role>
+        <namePart />
+    </name>
+
+    <identifier type="local" />
+    <identifier type="hdl" />
+
+    <titleInfo>
+        <title />
+    </titleInfo>
+    <titleInfo type="alternative">
+        <title />
+    </titleInfo>
+
+    <typeOfResource />
+    <genre />
+
+    <originInfo>
+        <dateCreated />
+        <publisher />
+    </originInfo>
+
+    <abstract />
+    <tableOfContents />
+
+    <relatedItem>
+        <identifier type="uri" />
+    </relatedItem>
+
+    <accessCondition type="useAndReproduction">Copyright to this work is held by the artist(s).
+        Contact Grinnell College Galleries for use and reproduction rights.</accessCondition>
+
+</mods>
